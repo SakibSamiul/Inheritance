@@ -11,7 +11,11 @@ class Programmer(Employee):
     def showLanguage(self):
         print("The default language is Python")
 
+class Education(Programmer):
+    def showVersity(self):
+        print("ABC University of Bangladesh")
 
-e = Programmer("Sakib", 97)
+e = Education("Sakib", 97)
 e.showDetails()
 e.showLanguage()
+e.showVersity()
